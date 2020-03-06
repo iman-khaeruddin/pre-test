@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-// PostMassage used for save massage into array.
+// PostMassage used for save massage. All message will save into array.
 func PostMassage(c *gin.Context) {
 	message := c.Param("message")
 

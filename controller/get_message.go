@@ -14,7 +14,7 @@ func GetMessage(c *gin.Context) {
 	return
 }
 
-// GetMessageWS return all message when connection open.
+// GetMessageWS return all message when connection opened.
 func GetMessageWS(c *gin.Context) {
 	handler := websocket.Handler(func(conn *websocket.Conn) {
 

@@ -41,7 +41,7 @@ go run main.go
 There are 3 end points :
 - Post a message
 ```
-curl -X POST http://localhost:8080/post/**your_massage**
+curl -X POST http://localhost:8080/post/your_massage
 ```
 - Get all message
 ```

@@ -50,3 +50,6 @@ curl -X GET http://localhost:8080/get/all-message
 - Get all message with long life connection
 
 You can use this [tool](https://chrome.google.com/webstore/detail/websocket-test-client/fgponpodhbmadfljofbimhhlengambbn) for test
+
+## Project Status
+For end point `/all-message` still need improvement. Right now if you want to persist the new data, you need re-open the connection. You shouldn't have to do it. 

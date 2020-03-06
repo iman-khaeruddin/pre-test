@@ -49,4 +49,4 @@ curl -X GET http://localhost:8080/get/all-message
 ```
 - Get all message with long life connection
 
-You can use this [tool](https://chrome.google.com/webstore/detail/websocket-test-client/fgponpodhbmadfljofbimhhlengambbn)
+You can use this [tool](https://chrome.google.com/webstore/detail/websocket-test-client/fgponpodhbmadfljofbimhhlengambbn) for test

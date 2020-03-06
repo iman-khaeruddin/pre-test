@@ -8,11 +8,13 @@ import (
 	"net/http"
 )
 
+// GetMessage return all message as a JSON.
 func GetMessage(c *gin.Context) {
 	c.JSON(http.StatusOK, database.LocalDB)
 	return
 }
 
+// GetMessageWS return all message when connection open.
 func GetMessageWS(c *gin.Context) {
 	handler := websocket.Handler(func(conn *websocket.Conn) {
 

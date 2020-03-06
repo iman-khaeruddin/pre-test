@@ -1,7 +1,6 @@
 package controller
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/iman-khaeruddin/test-warpin/database"
 	"golang.org/x/net/websocket"
@@ -18,8 +17,6 @@ func GetMessageWS(c *gin.Context) {
 		io.Copy(conn, conn)
 
 	})
-
-	fmt.Println(c.Request.Body)
 
 	handler.ServeHTTP(c.Writer, c.Request)
 }
